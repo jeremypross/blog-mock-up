@@ -116,7 +116,7 @@ input {
 
 #footer-content {
   flex: 1;
-  padding: 35px 0 0 0;
+  padding: 35px 0 0 20px;
   text-align: left;
 }
 
