@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -115,19 +117,23 @@ input {
 #footer-content {
   flex: 1;
   padding: 35px 0 0 0;
-  margin-left: 55px;
   text-align: left;
 }
 
 .footer-item {
   padding-right: 10px;
   color: gray;
+  flex: 1;
 }
 
 #social {
   flex: 1;
   padding: 35px 35px 0 0;
   text-align: right;
+}
+
+.social-container {
+  display: flex;
 }
 
 footer {
@@ -147,9 +153,11 @@ footer {
     display: block;
   }
 
-  a, #nav{
+  a, #nav {
     padding-left: 0;
     display: block;
   }
+
+
 
 }
